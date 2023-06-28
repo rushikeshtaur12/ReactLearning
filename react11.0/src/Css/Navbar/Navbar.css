@@ -1,0 +1,10 @@
+.Navdiv{
+    
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    height: 30px;
+    margin: 1px;
+    
+}
