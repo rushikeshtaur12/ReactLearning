@@ -5,12 +5,18 @@ const Main = () => {
     <div >
       <div className='sidebar'>
             <div className='sidebaritem'>
-                <h6><i class="fa-solid fa-house"></i>Home </h6>
-                <h6>short</h6>
-                <h6>suscriptio</h6>
+                <h6>Home</h6>
+                <h6>videos</h6>
+                <h6>Story</h6>
                 <h6>Library</h6>
+                <h6>Like</h6>
+                <h6>Comments</h6>
+                <h6>Saved</h6>
                 <h6>History</h6>
-                <h6>You videos</h6>
+                <h6>Setting</h6>
+                
+
+               
 
             </div>
             
@@ -24,10 +30,7 @@ const Main = () => {
       <button type="">News</button>
       <button type="">Political</button>
       <button type="">Entertainment</button>
-      <button type="">Finance</button>
-      <button type="">Serial</button>
-      <button type="">Movies</button>
-      <button type="">Music</button>
+      
         </aside>
         </div>
 
@@ -47,6 +50,11 @@ const Main = () => {
         <iframe src="https://www.youtube.com/embed/eR2Svx27btU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe src="https://www.youtube.com/embed/PUDaHgHC8ao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe src="https://www.youtube.com/embed/2SAwUSQzeVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
         <iframe src="https://www.youtube.com/embed/u9GRTj_FX1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe src="https://www.youtube.com/embed/LV-8IxAdUVk"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe  src="https://www.youtube.com/embed/Mb3j5eNyF-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

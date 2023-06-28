@@ -7,20 +7,18 @@
     padding-right: 20px;
     margin-left: 10%;
     margin-right: auto;
-
+   
 }
 .buttondiv{
     display: flex;
-    justify-content:space-around; 
+    justify-content:space-around;
     justify-content: center;
     gap: 3px;
     margin-left: 20px;
     padding-top: auto;
     align-items: center;
     gap:60px;
-    
-
-
+   
 }
 .cards{
     display: flex;
@@ -46,9 +44,21 @@
     width: 100%;  
 }
 button{
+    display: block;
     height: auto;
-    width: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white; /* Green */
+    color: black;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    width: 150px;
+    border-radius:12px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    
 }
 .sidebar{
     display: flex;
@@ -56,10 +66,18 @@ button{
     justify-content: center;
     gap: 3px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 9px;
     padding-top: auto;
     align-items: center;
     gap:60px;
+    size: 20px;
 
     
+}
+.sidebaritem{
+    font-family: 'roboto';
+}
+h6{
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
 }
