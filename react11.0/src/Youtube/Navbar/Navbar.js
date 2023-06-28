@@ -9,7 +9,7 @@ const Navbar = () => {
       </div>
 
       <div className='header_middle'>
-        <input type='text' placeholder='Search' className='seachinput'></input>
+        <input type="text" className='seachinput' placeholder='Search'></input>
         <a href="" className='search'><i class="fa-solid fa-magnifying-glass"></i></a> {/* Search */}
         <a href="" className='microphone'><i class="fa-solid fa-microphone"></i></a>   {/* Microphone */}
       </div>
