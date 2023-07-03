@@ -1,28 +1,51 @@
 import React from 'react'
 import './Navbar.css'
+import { CiMenuBurger } from "react-icons/ci";
+import { BsYoutube } from "react-icons/bs";
+import { RiVideoAddLine } from "react-icons/ri";
+import { IoMdNotificationsOutline } from "react-icons/io";
+import { CgProfile } from "react-icons/cg";
+
+
+
+
 const Navbar = () => {
   return (
-    <div className='header'>
-      <div className='header_left'>
-        <a href=""  className='menu'><i class="fa-solid fa-bars"></i></a>      {/* menu */}
-        <a href="" className='logo'><i class="fa-brands fa-youtube"></i></a>   {/* Logo */}  
+    <div className='main-div'>
+        <nav className='main-nav'>
+{/* 1st div for left part of nav bar */}
+          <div className='left-div'>
+            <ul className='left-ul'>
+              <li>
+                <CiMenuBurger className='menu-bar-icon'/>
+              </li>
+              <li>
+                <BsYoutube className='youtube-logo'/>
+              </li>
+            </ul>
+          </div>
+{/* 2nd div for middle part   */}
+      <div className='middle-div'>
+        <input type="text" placeholder='Search' className='input-bar'></input>
+        {/* <p>micephone</p>   */}
       </div>
-
-      <div className='header_middle'>
-        <input type="text" className='seachinput' placeholder='Search'></input>
-        <a href="" className='search'><i class="fa-solid fa-magnifying-glass"></i></a> {/* Search */}
-        <a href="" className='microphone'><i class="fa-solid fa-microphone"></i></a>   {/* Microphone */}
+{/* 3rd div for right part   */}
+      <div className='right-div'>
+        <ul className='right-ul'>
+          <li>
+            <RiVideoAddLine/>
+          </li>
+          <li>
+            <IoMdNotificationsOutline/>
+          </li>
+          <li>
+            <CgProfile/>
+          </li>
+        </ul>
+        
       </div>
-
-      <div className='header_right'>
-        <a href="" className='right'><i class="fa-light fa-video-plus"></i></a> {/* video */}
-        <a href="" className='right'><i class="fa-regular fa-bell"></i></a>    {/* notification */}
-        <a href="" className='right'><i class="fa-solid fa-user"></i></a>    {/*  Profile*/} 
-      </div>
-
-
+        </nav>
     </div>
- )
-}
-
+  )
+  }
 export default Navbar

@@ -14,10 +14,7 @@ const Main = () => {
                 <h6>Saved</h6>
                 <h6>History</h6>
                 <h6>Setting</h6>
-                
-
-               
-
+              
             </div>
             
         </div>

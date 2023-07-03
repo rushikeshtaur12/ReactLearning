@@ -1,51 +1,60 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    position: static;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
-.logo{
-    height: 20px;
-    width: 90px;
-    object-fit: contain;
-    margin-left: 20px;
-    color:red;
-    font-family: 'Courier New', Courier, monospace;
+li{
+list-style: none;
 }
-.header_left{
-    display: flex;
-    align-items: center;
-}
-.header_middle{
-    display: flex;
-    align-items: center;  
-    width: auto;
-    border: 1px solid lightgray;
-   
-}
-.seachinput{
-    height: 25px !important;
-    padding-left: 80px;
-    font-size: 16px;
-    justify-content: center;
-    /* margin-left: 1%; */
+.main-nav{
+    height: 7rem;
+    width: 100%;
+    display: grid;
+    padding-top: 30px;
+    padding-left: 10px;
+    grid-template-columns: 20rem 40rem 20rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 
 }
-.header_right{
+.left-div{
     display: flex;
-    align-self: center; 
+    
 }
-.search{
-    width: 50px !important;
-    background-color: #fafafa;
-    /* border-left: 0px solid lightgray; */
-    color: gray;
+.left-ul,.right-ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
 }
-.right{
-    margin-right: 20px;
-    color: rgb(83,83,83) ! important;
+.left-ul{
+    size: 10rem;
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
 }
+.menu-bar-icon{
+    
+}
+.youtube-logo{
+   
+    color: red;
+    
+}
+.input-bar{
+    height: 2rem;
+    width: 20rem;
+    border-radius: 15px;
+    border-style: inset;  
+}
+.right-div{
+    justify-content: right;
+}
+.right-ul li{
+    justify-content: right;
+    gap: 20px;
+    align-items: ;
+}
+

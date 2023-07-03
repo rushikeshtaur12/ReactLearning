@@ -1,0 +1,47 @@
+li{
+    list-style: none;
+}
+.main-nav{
+    height:5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6rem 1fr 1fr 0.2fr 10rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.Logo{
+    grid-column: 2/3;
+    color:rgb(134, 96, 205);
+}
+.main-menu{
+    grid-column: 3/4;
+}
+.main-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-menu ul li{
+}
+.social-icons{
+    grid-column: 4/5;
+}
+.social-icons ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons ul li{
+
+}
+
+.youtube{
+    color: red;
+}
+.instagram,.facebook{
+    color: blue;
+}
+.main-menu ul li a{
+    text-decoration: none;
+}
