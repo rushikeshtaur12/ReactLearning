@@ -1,5 +1,8 @@
 import React from 'react'
 import './Header.css'
+import  './Ex'
+import './Ex.css'
+import './Pagination'
 
 const Header = (props) => {
   return (
@@ -32,7 +35,7 @@ const Header = (props) => {
   </div>
 </nav>
 {/* Main theame  */}
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+{/* <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -47,7 +50,6 @@ const Header = (props) => {
       </div>
     </div>
  
-
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -57,23 +59,9 @@ const Header = (props) => {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
-
-<h1>{props.CompanyName}</h1>
-
-{/* Pagination   */}
-<nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="/">Previous</a></li>
-    <li class="page-item"><a class="page-link" href="/">1</a></li>
-    <li class="page-item"><a class="page-link" href="/">2</a></li>
-    <li class="page-item"><a class="page-link" href="/">3</a></li>
-    <li class="page-item"><a class="page-link" href="/">Next</a></li>
-  </ul>
-</nav>
+</div> */}
 
 
-{/* footer   */}
 
 
     </div>

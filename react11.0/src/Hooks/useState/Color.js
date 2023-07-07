@@ -4,7 +4,6 @@ const App = () => {
   const[color,setColor]=useState('Red')
   const[bgcolor,setbgColor]=useState('black')
   const[name,setName]=useState('')
-  const[phoneNumber,setPhoneNumber]=useState('')
   return (
     <div>
       <center>
@@ -18,7 +17,6 @@ const App = () => {
         <br></br>
         <input type="text" onChange={(e)=>setName(e.target.value)}></input>
         <h2>My name is {name}</h2>
-        
 
 
 
