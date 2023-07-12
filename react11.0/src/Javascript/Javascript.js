@@ -21,7 +21,7 @@ const Javascript = () => {
             }
         )}
         
-        catch{
+        catch (error){
             console.log('error')
         }
     
