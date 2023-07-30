@@ -7,7 +7,7 @@ const AxiosAPICall=()=>{
         console.log("response---->",response);
     }
 
-    useEffec
+    
 
     return(
         <div></div>

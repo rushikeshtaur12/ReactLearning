@@ -10,7 +10,6 @@ return (
       <button type="button" onClick={()=>setCount(count+1)}>+</button>
       <button type="button" onClick={()=>setCount(count-1)}>-</button>
       <button type="button" onClick={()=>setCount(0)}>Set Zero</button>
-
   </div>
 )
 }
